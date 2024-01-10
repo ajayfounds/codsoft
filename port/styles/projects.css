@@ -1,0 +1,80 @@
+.projects {
+  padding: 3rem 0 6rem 0;
+  background-color: #c296ff;
+}
+
+.projects h1 {
+  font-weight: 100;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.filter {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.filter button {
+  background-color: #2d004f;
+  color: rgb(255, 247, 247);
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 10px 10px 25px 10px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #8f5ae4;
+  padding: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  opacity: 0.9;
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+  z-index: 1;
+}
+
+/* .project-card:hover {
+  opacity: 2;
+  color: wheat;
+  background-color: #2d0d64;
+} */
+
+.project-card:hover{
+  transform: scale(1.15);
+  color: wheat;
+  background-color: #2d0d64;
+  box-shadow: 0 4px 8px rgba(0,0,0,0,0.2);
+  border: 1px solid rgb(125, 37, 137);
+  z-index: 77;
+}
+
+.project-card img {
+  width: 100%;
+  margin-top: 10px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1),
+    0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+@media only screen and (max-width: 768px) {
+  .project-grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .project-card {
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+  }
+  .project-card:hover{
+      transform: scale(1.15);
+      color: wheat;
+      background-color: #2d0d64;
+      box-shadow: 0 4px 8px rgba(0,0,0,0,0.2);
+      border: 1px solid rgb(125, 37, 137);
+      z-index: 77;
+  }
+}

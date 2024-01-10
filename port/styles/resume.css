@@ -1,0 +1,50 @@
+.resume {
+  padding: 5rem 0;
+  background-color: #DBC6F8;   /*#DBC6F8*/
+}
+
+.resume h1 {
+  font-weight: 100;
+  border-bottom: 1px solid #000000;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.resume h2 {
+  /* border-bottom: 1px solid #000000; */
+  padding-bottom: 3px;
+  display: inline-block;
+}
+
+.resume-content {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  color: #1c1c1c;
+}
+
+.card-header-info p:nth-child(1) {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-header span {
+  background-color: #302f2f;
+  color: rgb(247, 233, 189);
+  padding: 1px 10px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .resume-content {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}

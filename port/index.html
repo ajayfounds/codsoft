@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"/>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <link rel="stylesheet" href="./styles/main.css" />
+
+    <title>Ajay Sri Portfolio</title>
+  </head>
+
+  <body>
+
+    <!---------------------------------- NAVBAR -------------------------------->
+
+    <header>
+      <nav role="navigation" aria-label="Navigation">
+        <div class="container navbar">
+          <h1>Ajay Sri.</h1>
+
+          <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+          <button
+            aria-label="Toggle Mobile Menu"
+            class="hamburger"
+          >
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+
+      <!------------------------------- HERO SECTION ---------------------------->
+
+      <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <div class="hero-text">
+            <h2 id="typed-text"></h2>
+          </div>
+
+          <div
+            class="hero-socials"
+            aria-label="Social Media Links"
+          >
+            <div style="background-color:rgb(235, 180, 235); height: 34px; width: 34px; border-radius: 34rem;"><a href="#" aria-label="Twitter Link"> <img src="/assets/twi_png.png" alt="" style="height: 1.5rem; width: 1.5rem; margin-top: 5px;margin-left: 5px;" ></a></div>
+            <a href="https://github.com/ajayfounds/" aria-label="Github Link"
+              ><ion-icon name="logo-github"></ion-icon
+            ></a>
+            <a href="https://www.linkedin.com/in/ajaysr8/" aria-label="LinkedIn Link"
+              ><ion-icon name="logo-linkedin"></ion-icon
+            ></a>
+            <a href="https://www.instagram.com/ajay_sr8" aria-label="Instagram Link"
+              ><ion-icon name="logo-instagram"></ion-icon
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <!-----------------------   ABOUT SECTION ------------------------>
+
+      <section class="about" id="about">
+        <div class="container">
+          <h1>
+            I'm <strong>Ajay Srivastava</strong> and I'm a
+            <strong>Web Developer </strong> also an <strong>UI/UX Designer</strong>
+          </h1>
+
+          <div class="about-info">
+            <p>
+              Hey, I'm Ajay Srivastava, a Front-end Developer who loves turning ideas into visually appealing, functional websites. From wireframes to responsive interfaces, I blend creativity with precision using HTML, CSS, JavaScript, and more.
+            </p>
+            <hr>
+            <p>
+              On the UI/UX front, I am dedicated to crafting seamless, delightful experiences that resonate with users. Whether it's wireframing, prototyping, or creating pixel-perfect designs, I approach each project with a user-first mentality. My goal is to strike the perfect balance between functionality and aesthetics, ensuring that every interaction feels natural.
+            </p>
+          </div>
+
+          <button
+            class="about-button"
+            aria-label="Download Resume Button"
+          >
+            Download Resume
+            <ion-icon
+              name="download-outline"
+              aria-hidden="true"
+            ></ion-icon>
+          </button>
+        </div>
+      </section>
+
+      <!------------------------------   SKILLS SECTION      ----------------------------->
+
+      <section class="skills" id="skills">
+
+        <h1>Just a few of my <strong>Skills</strong></h1>
+
+        <div class="container skill-grid">
+
+          <div class="skill">
+            <img src="./assets/bootstrap.svg" alt="" style="height: 2.4rem;">
+            <h3>BootStrap</h3>
+            <p>
+              Front-end magic, simplifying responsive 
+              design with a sleek grid system and 
+              ready-to-use components. Effortless web 
+              development elegance.
+            </p>
+          </div>
+
+          <div class="skill">
+            <ion-icon
+              name="logo-html5"
+              class="skill-icon"
+              aria-hidden="true"
+            ></ion-icon>
+            <h3>HTML5</h3>
+            <p>
+              Modern web language, elevating user experience
+              with multimedia, responsive design, 
+              and enhanced semantic structure
+            </p>
+          </div>
+
+          <div class="skill">
+            <ion-icon name="logo-CSS3" class="skill-icon" aria-hidden="true"></ion-icon>
+            <h3>CSS3</h3>
+            <p>
+              Styling wizardry, transforming web aesthetics
+              with gradients, animations, and responsive 
+              layouts for an immersive user experience
+            </p>
+          </div>
+
+          <div class="skill">
+            <ion-icon
+              name="logo-javascript"
+              class="skill-icon"
+              aria-hidden="true"
+            ></ion-icon>
+            <h3>Javascript</h3>
+            <p>
+              Dynamic scripting powerhouse, adding 
+              interactivity, animations, and functionality
+              to websites for a seamless user experience
+            </p>
+          </div>
+          
+          <div class="skill">
+            <img src="/assets/Ps_logopng.png" alt="" style="height: 2.5rem;">
+            <h3>PhotoShop</h3>
+            <p>
+              Graphics marvel, empowering creatives
+              with advanced editing tools for stunning
+              visuals and unparalleled design precision
+            </p>
+          </div>
+          
+          <div class="skill">
+            <img src="/assets/figma_png.png" alt="" style="height: 3rem;">
+            <h3>Figma</h3>
+            <p>
+              Design collaboration revolution. Cloud-based,
+              intuitive interface, fostering seamless 
+              teamwork in creating interactive and 
+              stunning user experiences
+            </p>
+          </div>
+
+          <div class="skill">
+            <!-- <ion-icon
+              name="logo-javascript"
+              class="skill-icon"
+              aria-hidden="true"
+            ></ion-icon> -->
+            <img src="/assets/git_png.png" alt="" style="height: 3rem;">
+            <h3>Git</h3>
+            <p>
+              Version control wizardry, enabling
+              collaborative coding with branches, 
+              commits, and history tracking. 
+              Essential for developers' teamwork
+          </div>
+
+        </div>
+      </section>
+
+      <!-----------------------------RESUME -------------------------->
+
+      <section class="resume" id="resume">
+        <div class="container">
+          <h1>
+            My Previous <strong>Work</strong> History &
+            <strong>Education</strong>
+          </h1>
+
+          <div class="resume-content">
+            <div>
+              <h2><u>Education:</u></h2>
+
+              <article>
+                <div class="card-header">
+                  <div class="card-header-info">
+                    <p>MAHARISHI Vidya Mandir</p>
+                    <p>Orai, U.P</p>
+                  </div>
+                  <span>Upto 10th, 2019</span>
+                </div>
+                <p class="card-info">
+                  I have done my 10th standard from my hometown, Orai.
+                  I scored 94% in my class 10th examinations.
+                </p>
+              </article>
+
+              <article>
+                <div class="card-header">
+                  <div class="card-header-info">
+                    <p>RamShree Public School</p>
+                    <p>Orai, U.P</p>
+                  </div>
+                  <span>11th & 12th ... 2019 - 2021</span>
+                </div>
+                <p class="card-info">
+                  Having successfully concluded my 12th standard education, I achieved a commendable academic performance by securing an 90% overall score in my examinations.
+                </p>
+              </article>
+
+              <article>
+                <div class="card-header">
+                  <div class="card-header-info">
+                    <p>Computer Science Engineering</p>
+                    <p>JSSATE, Noida</p>
+                  </div>
+                  <span>2022 - 2026</span>
+                </div>
+                <p class="card-info">
+                  Presently, I am actively engaged in pursuing a degree in Computer Science Engineering at JSS Academy of Technical Education,Noida. This educational journey is enhancing my skills and knowledge in the field..
+                </p>
+              </article>
+
+            </div>
+
+            <div>
+              <h2><u>Experience:</u></h2>
+
+              <article>
+                <div class="card-header">
+                  <div class="card-header-info">
+                    <p>HacktoberFest 2K23</p>
+                    <p>Remote, Part-time</p>
+                  </div>
+                  <span>Oct, 2023 - Nov, 2023</span>
+                </div>
+                <p class="card-info">
+                  I have achieved milestone as a Contributor during Hacktoberfest 2023, actively participating in the event by making valuable contributions to open-source projects. This experience has not only enhanced my coding skills but also fostered a sense of community and collaboration within the tech industry.
+                </p>
+              </article>
+
+              <article>
+                <div class="card-header">
+                  <div class="card-header-info">
+                    <p>CodSoft</p>
+                    <p>Remote , Part-time</p>
+                  </div>
+                  <span>Dec, 2023 - Present</span>
+                </div>
+                <p class="card-info">
+                  I am currently gaining valuable professional experience as a web development intern at CodSoft. In this role, I am actively involved in hands-on projects, honing my skills and contributing to the dynamic world of web development.
+                </p>
+              </article>
+
+              <!-- <article>
+                <div class="card-header">
+                  <div class="card-header-info">
+                    <p>Computer Science</p>
+                    <p>noida</p>
+                  </div>
+                  <span>2026</span>
+                </div>
+                <p class="card-info">
+                  Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Voluptates inventore
+                  quod officia iusto incidunt rem eaque
+                  tenetur, odio autem asperiores iure, sed
+                  quibusdam ut atque consectetur quia
+                  dignissimos, commodi minima.
+                </p>
+              </article> -->
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!------------------------------------PROJECTS SECTION ---------------------------->
+
+      <section class="projects" id="projects">
+        <div class="container">
+          <h1>Some of my <strong>Projects</strong></h1>
+
+          <div class="filter">
+            <button data-filter="all" aria-label="Show all projects"> All </button>
+            <button data-filter="top" aria-label="Show top projects"> Top </button>
+            <button data-filter="game" aria-label="Show game projects"> Games </button>
+            <button data-filter="crisp" aria-label="Show crisp projects"> Crisp  </button>
+          </div>
+
+          <div class="project-grid">
+
+            <div class="project-card" data-category="top">
+              <h2>TrendSphere</h2> <img src="./assets/trends_home.png" alt="top project"/>
+            </div>
+
+            <div class="project-card" data-category="top">
+              <h2>Spotify Clone </h2> <img src="./assets/spotify_home.png" alt="top project"/>
+            </div>
+
+            <div class="project-card" data-category="crisp">
+              <h2>Pet Adopt</h2> <img src="./assets/pet_page.png" alt="crisp project"/>
+            </div>
+
+            <div class="project-card" data-category="game">
+              <h2>QuicTric</h2> <img src="./assets/quictric.png" alt="game project"/>
+            </div>
+
+            <div class="project-card" data-category="top">
+              <h2>Rustic Studios</h2> <img src="./assets/RusticStudios.png" alt="top project"/>
+            </div>
+
+            <div class="project-card" data-category="game">
+              <h2>Calculator</h2> <img src="./assets/Calculator_img.png" alt="game project"/>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <!--CONTACT SECTION-->
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <h1>Let's have a <strong>discussion</strong></h1>
+          <p>
+            Please allow 24-48 hours for a response. Thank
+            you!
+          </p>
+          <div>
+            <form
+              id="contact-form"
+              aria-label="Contact Form"
+            >
+              <div class="form-row">
+                <input
+                  type="text"
+                  name="name"
+                  class="form-input"
+                  placeholder="Your name"
+                  required
+                  aria-label="Your name"
+                />
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Your email"
+                  required
+                  aria-label="Your email"
+                />
+              </div>
+
+              <textarea
+                rows="6"
+                name="message"
+                class="form-input"
+                placeholder="Enter your message here..."
+                required
+                style="resize: none"
+                aria-label="Your Message"
+              ></textarea>
+
+              <div class="form-button">
+                <button type="submit">
+                  Submit Your Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id = full-footor>
+      <div class="container footer-container">
+        <p>&copy; 2024 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp AjaySri.com &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;All rights reserved</p>
+      </div>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+.about {
+  padding: 5rem 0;
+  text-align: center;
+  background-color: #DBC6F8;
+}
+
+.about-info {
+  display: flex;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.about h1 {
+  font-weight: 100;
+  font-size: 40px;
+  color: #0A0317;
+  text-transform: uppercase;
+}
+
+.about p {
+  font-size: 18px;
+  color: #210F41; /* #0A0317 #210F41 #381B6B #6633BF #7F3EE8 #9660EC #AD82F0 #C4A4F4 #DBC6F8 #F0E8FC */
+  line-height: 2;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.about-button {
+  padding: 1rem 2rem;
+  background: #7F3EE8;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.about-button:hover {
+  background-color: #210F41;
+  transition: 0.3s ease-in-out;
+}
